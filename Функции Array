@@ -19,9 +19,10 @@ namespace ConsoleApplication31
             do
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.Write("Изначальный массив  ");
+                Console.Write("Изначальный массив: " + "{");
                 foreach (int i in array)
                     Console.Write(i + " ");
+                Console.Write("}")
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Green;
